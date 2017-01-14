@@ -1,6 +1,6 @@
 {
   "name": "electrify-mongoclient",
-  "version": "3.0.0",
+  "version": "2.1.4",
   "main": "lib/index.js",
   "bin": {
     "electrify": "bin/cli.js"
@@ -8,8 +8,8 @@
   "engines": {
     "node": ">=6.9.4"
   },
-  "description": "Package your Meteor apps with Electron, and butter.",
-  "author": "Anderson Arboleya <anderson@arboleya.me>",
+  "description": "Fork of electrify from Anderson Arboleya",
+  "author": "Sercan Özdemir <info@mongoclient.com>",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.8.1",
