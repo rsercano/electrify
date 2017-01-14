@@ -1,20 +1,20 @@
 {
-  "name": "electrify",
-  "version": "2.1.4",
+  "name": "electrify-mongoclient",
+  "version": "3.0.0",
   "main": "lib/index.js",
   "bin": {
     "electrify": "bin/cli.js"
   },
   "engines": {
-    "node": ">=0.10.36"
+    "node": ">=6.9.4"
   },
   "description": "Package your Meteor apps with Electron, and butter.",
   "author": "Anderson Arboleya <anderson@arboleya.me>",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.8.1",
-    "electron-packager": "^8.2.0",
-    "electron-prebuilt": "^1.4.5",
+    "electron-packager": "^8.5.0",
+    "electron": "^1.4.14",
     "lodash": "^3.10.1",
     "server-destroy": "^1.0.1",
     "shelljs": "^0.5.3",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arboleya/electrify"
+    "url": "https://github.com/rsercano/electrify"
   },
   "keywords": [
     "electron",
@@ -38,7 +38,7 @@
     "desktop"
   ],
   "bugs": {
-    "url": "https://github.com/arboleya/electrify/issues"
+    "url": "https://github.com/rsercano/electrify/issues"
   },
-  "homepage": "https://github.com/arboleya/electrify"
+  "homepage": "https://github.com/rsercano/electrify"
 }

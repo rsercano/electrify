@@ -1,10 +1,10 @@
 var VERSION = '2.1.4';
 
 Package.describe({
-  name: 'arboleya:electrify',
+  name: 'mongoclient:electrify',
   version: VERSION,
-  summary: 'Package your Meteor apps with Electron, and butter.',
-  git: 'https://github.com/arboleya/electrify',
+  summary: 'A fork of electrify for mongoclient',
+  git: 'https://github.com/rsercano/electrify',
   documentation: 'README.md'
 });
 
